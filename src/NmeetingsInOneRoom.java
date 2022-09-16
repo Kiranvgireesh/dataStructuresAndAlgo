@@ -11,7 +11,8 @@ public class NmeetingsInOneRoom {
             
         }
         
-        Arrays.sort(arr,(a, b) -> Integer.compare(a[1],b[1]) );
+        Arrays.sort(arr,(a, b) -> Integer.compare(a[1],b[1
+                                                         ]) );
         
         int count=0;
         int last=0;
